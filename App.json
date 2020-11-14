@@ -1,7 +1,7 @@
 
-": "𝕃𝔼𝔾𝔼ℕ𝔻_𝕌𝕊𝔼ℝ𝔹𝕆𝕋",
+": "𝕃𝔼𝔾𝔼ℕ𝔻 𝕌𝕊𝔼ℝ𝔹𝕆𝕋",
 
-  "description": "The best and most awaited userbot made by YOU_ARE_UNDER_ARREST and modified by @none1p Made with ❤ For Support Join @LEGEND_USERBOT_SUPPORT ",
+  "description": "The best userbot ever made by @YOU_ARE_UNDER_ARREST and modified by @none1p, Made with care... For Support Join @LEGEND_USERBOT_SUPPORT ",
 
   "logo": "https://telegra.ph/file/6d8f5de35757aced056fe.jpg ",
 
@@ -23,7 +23,7 @@
 
   "website": "https://github.com/aritramandal/aritramandal/",
 
-  "success_url": "https://t.me/Dark_cobra_support",
+  "success_url": "https://t.me/LEGEND_USERBOT_SUPPORT",
 
   "env": {
 
@@ -57,7 +57,7 @@
 
     "ALIVE_NAME": {
 
-      "description": "Fill your Full name or Username like @YOU_ARE_UNDER_ARREST.",
+      "description": "Fill your Full name or Username like @YOU_ARE_UNDER_ARREST or any type of stylish name.",
 
       "value": "",
 
@@ -75,9 +75,9 @@
 
     },
 
-    "ALIVE_PHOTTO": {
+    "ALIVE_PHOTO": {
 
-      "description": "put here any telegraph media link for alive pic.",
+      "description": "put here any telegraph media link for alive pic.. get this value from @vTelegraphBot ",
 
       "value": "",
 
@@ -97,7 +97,7 @@
 
     "PMPERMIT_PIC": {
 
-      "description": "put here any telegraph media link for pmpermit custom pic.",
+      "description": "put here any telegraph media link for pmpermit custom pic. get this value from @vTelegraphBot ",
 
       "value": "",
 
@@ -117,10 +117,11 @@
 
     "APP_ID": {
 
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "Get this value from my.telegram.org!",
 
       "value": ""
-
+      
+      "required" : true 
     },
 
     "REM_BG_API_KEY": {
@@ -148,6 +149,8 @@
       "description": "Get this value from my.telegram.org! Please do not steal",
 
       "value": ""
+       
+      "required" : true
 
     },
 
@@ -156,15 +159,20 @@
       "description": "Create a private group add rose  then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
 
       "value": ""
+       
+      "required" : true
 
     },
 
     "PRIVATE_GROUP_BOT_API_ID": {
 
-      "description": "create a private channel and then type .get_id add that value here for save messages",
+      "description": "create a private channel and then type any message then forward it to @ShowJsonBot then get your chat it.. example-- 'forward_from_chat: 
+
+   "id": -1001312681336,',
 
       "value": ""
-
+       
+      "required" : true 
     },
 
     "PRIVATE_GROUP_ID": {
@@ -177,10 +185,13 @@
 
     "PM_LOGGR_BOT_API_ID": {
 
-       "description": "for login private messages create a private channel and do .get_id and add that id", 
+       "description": "for login private messages create a private channel and type any message then forward it to @ShowJsonBot then get your chat it.. example-- 'forward_from_chat: 
+
+   "id": -1001312681336,'", 
 
        "value": ""
-
+        
+        "required" : true 
     }, 
 
     "STRING_SESSION": {
@@ -188,7 +199,8 @@
       "description": "Get this value by running https://repl.it/@aritramandal1/Lagenduserbot ",
 
       "value": ""
-
+       
+       "required" : true 
     },
 
     "GITHUB_ACCESS_TOKEN": {
@@ -203,7 +215,7 @@
 
     "GIT_REPO_NAME": {
 
-      "description": "Your repo name Example: hellboi-atul/hellboi-atul, but GITHUB_ACCESS_TOKEN must be setup first.",
+      "description": "Your repo name Example: aritramandal/aritramandal  but GITHUB_ACCESS_TOKEN must be setup first.",
 
       "value": "",
 
@@ -243,10 +255,11 @@
 
     "TG_BOT_TOKEN_BF_HER": {
 
-      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn of inline Mode on bot settings. Get it.",
+      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
 
       "value": ""
-
+      
+      "required" : true 
     },
 
     "CHROME_BIN": {
@@ -295,7 +308,7 @@
 
     },
 
-    "NO_OF_BUTTONS_DISPLAYED_IN_H_ME_CMD": {
+    "NO_OF_BUTTONS_DISPLAYED_IN_HELP_ME_CMD": {
 
       "description": " Set The Amount Of Buttons Displayed In Help Command",
 
@@ -303,7 +316,7 @@
 
     },
 
-    "NO_OF_COLUMS_DISPLAYED_IN_H_ME_CMD": {
+    "NO_OF_COLUMS_DISPLAYED_IN_HELP_ME_CMD": {
 
       "description": "Set The Amount Of Rows You Want To Displayed In Help Command default 2",
 
@@ -320,8 +333,18 @@
       "required": true
 
     }, 
-
-    "TZ": {
+   
+    "CMD_HANDELER" : {
+      
+      "description" : "put any symbol you want as a trigger for you cmd. or leave it as '.'..
+       
+      "value" : "."
+      
+      "required" : true
+    },
+    
+      
+    "TIMEZONE": {
 
       "description": "Required for Correct Time for autopic get from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
 
