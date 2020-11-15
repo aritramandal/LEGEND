@@ -13,8 +13,7 @@ Cool userbot made by @YOU_ARE_UNDER_ARREST and  @none1p
 
 ### MADE WITH PYTHON
 
-### Deploy
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/aritramandal/Legend)
+
 
 ### STRING SESSION 
 
