@@ -19,6 +19,27 @@ Or
 [![Get string session](https://repl.it/badge/github/aritramandal/LEGEND)](https://repl.it/@bristi648/Legenduserbot/)
 
 
+
+
+
+
+
+[![](https://camo.githubusercontent.com/e531cdc1dbdcb78f8ffe767875a6b6d33c43e2e0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2d54656c656772616d2532304368616e6e656c2d7265642e7376673f6c6f676f3d54656c656772616d)](https://t.me/legend_userbot_support_channel)
+
+
+
+
+
+
+
+
+[![](https://camo.githubusercontent.com/7b0a8bb8af0b2466dd1c38a6c1367ddee45ba266/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2d54656c656772616d25323047726f75702d626c75652e7376673f6c6f676f3d74656c656772616d)](https://t.me/LEGEND_USERBOT_SUPPORT)
+
+
+
+
+
+
 ### The Normal Way
 
 An example `local_config.py` file could be:
