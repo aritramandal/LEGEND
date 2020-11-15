@@ -26,6 +26,10 @@ Or
 [![Get string session](https://repl.it/badge/github/aritramandal/LEGEND)](https://repl.it/@bristi648/Legenduserbot/)
 
 
+### By TEAM #𝙻𝙴𝙶𝙴𝙽𝙳™
+
+
+
 
 ### LEGEND USERBOT SUPPORT CHANNEL
 
