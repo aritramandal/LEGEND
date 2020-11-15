@@ -14,18 +14,18 @@ Cool userbot made by @YOU_ARE_UNDER_ARREST and  @none1p
 ### MADE WITH PYTHON
 
 
+### STRING SESSION 
+
 
 [![Get string session](https://repl.it/badge/github/aritramandal/LEGEND)](https://repl.it/@aritramandal1/Legenduserbot/)
 
-
 Or
-
 
 [![Get string session](https://repl.it/badge/github/aritramandal/LEGEND)](https://repl.it/@bristi648/Legenduserbot/)
 
 
 
-
+### LEGEND USERBOT SUPPORT CHANNEL
 
 
 
@@ -33,8 +33,7 @@ Or
 
 
 
-
-
+### LEGEND USERBOT SUPPORT GROUP
 
 
 
