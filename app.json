@@ -190,9 +190,11 @@
    'id': -1001312681336,'", 
 
        "value": ""
-        
-        "required": true 
-    }, 
+    
+       "required": true 
+
+     
+}, 
 
     "STRING_SESSION": {
 
@@ -200,7 +202,7 @@
 
       "value": ""
        
-       "required": true 
+      "required": true 
     },
 
     "GITHUB_ACCESS_TOKEN": {
