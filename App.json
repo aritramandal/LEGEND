@@ -98,7 +98,7 @@
     "PM_LOGGR_BOT_API_ID": {
      "description": "for login private messages create a private channel and then type any message and forward it to @ShowJsonBot.. you'll get many IDs but copy that one which precedes 'forward_from_chat' then paste here", 
      "value": "",
-     "required": true
+     "required": false
     }, 
     "STRING_SESSION": {
       "description": "Get this value by running https://repl.it/@aritramandal1/Lagenduserbot ",
