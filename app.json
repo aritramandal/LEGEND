@@ -187,7 +187,7 @@
 
        "description": "for login private messages create a private channel and type any message then forward it to @ShowJsonBot then get your chat it.. example-- 'forward_from_chat: 
 
-   'id': -1001312681336,'", 
+   'id': -1001312681336,", 
 
        "value": "",
     
