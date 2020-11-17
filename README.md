@@ -19,11 +19,11 @@
 
 ### STRING SESSION 
 
-[![Get string session](https://repl.it/badge/github/aritramandal/LEGEND)](https://repl.it/@aritramandal1/Legenduserbot/)
+<p align="centre"><a href="https://repl.it/@aritramandal1/Legenduserbot?template=https://repl.it/@aritramandal1/Legenduserbot"> <img src="https://telegra.ph/file/b9133ebfd256fb7d2993a.jpg" alt="GET STRING" width="200" height="100.100"/></a></p>
 
 Or
 
-[![Get string session](https://repl.it/badge/github/aritramandal/LEGEND)](https://repl.it/@bristi648/Legenduserbot/)
+
 
 
 ### By TEAM #𝙻𝙴𝙶𝙴𝙽𝙳™
