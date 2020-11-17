@@ -40,7 +40,7 @@
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for pmpermit custom pic.",
-      "value": "",
+      "value": "https://telegra.ph/file/4d0a5ad57eaf480b29fb3.jpg",
       "required": true
     },
      "ALIVE_PHOTO": {
