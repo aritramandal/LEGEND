@@ -35,23 +35,23 @@
     },
     "BIO_MSG": {
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "",
+      "value": "Legend userbot is best",
       "required": false
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for pmpermit custom pic.",
       "value": "",
-      "required": false
+      "required": true
     },
      "ALIVE_PHOTO": {
       "description": "put here any telegraph media link for Media to show with .alive Command",
       "value": "",
-      "required": false
+      "required": true
     },
     "PM_PERMIT_GROUP_ID": {
       "description": "Put an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
       "value": "",
-      "required": false
+      "required": true
     },
     "CUSTOM_PMPERMIT": {
       "description": "Custom middle pm permit text... May skip..doesn't really matter...",
@@ -64,7 +64,7 @@
       "required": false
     },
     "APP_ID": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "Get this value from my.telegram.org!",
       "value": ""
     },
     "REM_BG_API_KEY": {
@@ -86,7 +86,7 @@
       "value": ""
     },
     "PRIVATE_GROUP_BOT_API_ID": {
-      "description": "create a private channel and then type .get_id add that value here for save messages",
+      "description": "create a private channel and type any message there and then forward it to @ShowJsonBot there you'll get many IDs.. copy that id which precedes 'forward_from_chat' paste that value here..",
       "value": ""
     },
     "PRIVATE_GROUP_ID": {
@@ -127,7 +127,7 @@
       "required": false
     },
     "TG_BOT_TOKEN_BF_HER": {
-      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn of inline Mode on bot settings. Get it.",
+      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
       "value": ""
     },
     "TG_BOT_USER_NAME_BF_HER": {
