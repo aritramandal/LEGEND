@@ -35,9 +35,11 @@ Or
 
 
 
-[![](https://camo.githubusercontent.com/e531cdc1dbdcb78f8ffe767875a6b6d33c43e2e0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2d54656c656772616d2532304368616e6e656c2d7265642e7376673f6c6f676f3d54656c656772616d)](https://t.me/legend_userbot_support_channel)
 
-<a href="https://t.melegend_userbot_support_channel/"><img src="https://telegra.ph/file/8ef5ff8acca6c6e4c7dd7.jpg?logo=Telegram"></a>
+
+<p align="centre"><a href="https://t.me/legend_userbot_support_channel?template=https://t.me/legend_userbot_support_channel"> <img src="https://telegra.ph/file/6b2aeeccbbf98a3e64f01.jpg" alt="JOIN NOW " width="200" height="200.200"/></a></p>
+
+
 
 
 
@@ -45,7 +47,12 @@ Or
 
 
 
+
+
+
 <p align="centre"><a href="https://t.me/LEGEND_USERBOT_SUPPORT?template=https://t.me/LEGEND_USERBOT_SUPPORT"> <img src="https://telegra.ph/file/9ff92c38775ab62acf606.jpg" alt="JOIN NOW " width="200" height="200.200"/></a></p>
+
+
 
 
 
