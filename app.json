@@ -45,7 +45,7 @@
     },
      "ALIVE_PHOTO": {
       "description": "put here any telegraph media link for Media to show with .awake Command",
-      "value": "",
+      "value": "https://telegra.ph/file/4d0a5ad57eaf480b29fb3.jpg",
       "required": true
     },
     "PM_PERMIT_GROUP_ID": {
