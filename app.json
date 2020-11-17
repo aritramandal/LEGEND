@@ -1,68 +1,71 @@
-"name": "𝕃𝔼𝔾𝔼ℕ𝔻_𝕌𝕊𝔼ℝ𝔹𝕆𝕋",
+{
+  "name": "𝕃𝔼𝔾𝔼ℕ𝔻_𝕌𝕊𝔼ℝ𝔹𝕆𝕋",
   "description": "The best  userbot made by YOU_ARE_UNDER_ARREST and  @none1p..🥳 For Support Join https://t.me/LEGEND_USERBOT_SUPPORT ",
   "logo": "https://telegra.ph/file/139b60372693797590f3d.jpg",
     "keywords": [
     "telegram",
+    "management",
     "userbot",
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/aritramandal/LEGEND/",
-  "website": "https://github.com/aritramandal/legend/",
-  "success_url": "https://t.me/Dark_cobra_support",
-
+  "repository": "https://github.com/you-are-under-arrest/legend",
+  "website": "#ToDo",
+  "success_url": "https://t.me/legend_userbot_support",
   "env": {
     "ENV": {
-     "description": "Setting this to ANYTHING will enable heroku.",
-       "value": "ANYTHING"
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
     },
     "TEMP_DOWNLOAD_DIRECTORY": {
       "description": "Where downloaded files will go.",
       "value": "./userbot/DOWNLOADS/",
       "required": false
-
     },
-
     "F_BAN_LOGGER_GROUP": {
       "description": "Put Group id Same As PRIVATE_GROUP_ID.",
       "value": "",
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @YOU_ARE_UNDER_ARREST.",
+      "description": "Fill your Full name or Username like @YOU_ARE_UNDER_ARREST",
       "value": "",
       "required": false
     },
-    "ALIVE_MSG": {
-      "description": "Set Custom awake Message When entering .awake command.",
-      "value": "My master is best",
-      "required": true
-    },
-    "ALIVE_PHOTO": {
-     "description": "put here any telegraph media link for alive pic.",
-     "value": "https://telegra.ph/file/139b60372693797590f3d.jpg",
-     "required": true
-    },
     "BIO_MSG": {
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "Legend userbot is the best",
+      "value": "",
       "required": false
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for pmpermit custom pic.",
-      "value": "https://telegra.ph/file/139b60372693797590f3d.jpg",
-      "required": true
+      "value": "",
+      "required": false
+    },
+     "ALIVE_PHOTO": {
+      "description": "put here any telegraph media link for Media to show with .alive Command",
+      "value": "",
+      "required": false
     },
     "PM_PERMIT_GROUP_ID": {
       "description": "Put an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
       "value": "",
       "required": false
     },
-    "APP_ID": {
-      "description": "Get this value from my.telegram.org!",
+    "CUSTOM_PMPERMIT": {
+      "description": "Custom middle pm permit text... May skip..doesn't really matter...",
       "value": "",
-      "required": true
+      "required": false
+    },
+    "PM_DATA": {
+      "description": "Write DISABLE if you want to disable pm permit else leave it blank...",
+      "value": "",
+      "required": false
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
     },
     "REM_BG_API_KEY": {
       "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
@@ -75,43 +78,38 @@
       "required": false
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org!",
+      "description": "Get this value from my.telegram.org! Please do not steal",
       "value": ""
-      "required" true
     },
     "PLUGIN_CHANNEL": {
       "description": "Create a private group add rose  then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": "",
-      "required": true
+      "value": ""
     },
     "PRIVATE_GROUP_BOT_API_ID": {
-      "description": "create a private channel and then type any message and forward it to @ShowJsonBot.. you'll get many IDs but copy that one which precedes 'forward_from_chat' then paste here",
-      "value": "",
-      "required": true
+      "description": "create a private channel and then type .get_id add that value here for save messages",
+      "value": ""
     },
     "PRIVATE_GROUP_ID": {
       "description": "Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
+      "value": ""
+    },
+    "OCR_SPACE_API_KEY": {
+      "description": "Needed for ocr.py, get it from ocr.space .",
       "value": "",
-      "required": true
+      "required": false
+    },
+    "SUDO_USERS": {
+      "description": "Users which Can use Your BOT by giving Commands Starting from SUDO_HNDLR. MAKE only Trustworthy Person as Sudo User",
+      "value": "",
+      "required": false
     },
     "PM_LOGGR_BOT_API_ID": {
-     "description": "for login private messages create a private channel and then type any message and forward it to @ShowJsonBot.. you'll get many IDs but copy that one which precedes 'forward_from_chat' then paste here", 
-     "value": "",
-     "required": false
+       "description": "for login private messages create a private channel and do .get_id and add that id", 
+       "value": ""
     }, 
     "STRING_SESSION": {
-      "description": "Get this value by running https://repl.it/@aritramandal1/Lagenduserbot ",
-      "value": "",
-    },
-    "GITHUB_ACCESS_TOKEN": {
-      "description": "Your Github Access Token for gitcommit plugin.Google 'Github access token' to find.",
-      "value": "",
-      "required": false
-    },
-    "GIT_REPO_NAME": {
-      "description": "Your repo name Example: aritramandal/aritramandal, but GITHUB_ACCESS_TOKEN must be setup first.",
-      "value": "",
-      "required": false
+      "description": "Get this value by running https://repl.it/@aritramandal1/Lagenduserbot",
+      "value": ""
     },
     "LYDIA_API_KEY": {
       "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
@@ -119,7 +117,7 @@
       "required": false
     },
     "HEROKU_API_KEY": {
-      "description": "Go to https://dashboard.heroku.com/account,scroll down and press Reveal API.Required for updater to work.",
+      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
       "value": "",
       "required": true
     },
@@ -129,23 +127,12 @@
       "required": false
     },
     "TG_BOT_TOKEN_BF_HER": {
-      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn of inline Mode on bot settings.",
+      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn of inline Mode on bot settings. Get it.",
       "value": ""
-    },
-    "CHROME_BIN": {
-      "description": "For Carbon.py. Leave as it is. ",
-      "value": "/app/.apt/usr/bin/google-chrome",
-      "required": false
-    },
-    "CHROME_DRIVER": {
-      "description": "For Carbon.py. Leave as it is. ",
-      "value": "/app/.chromedriver/bin/chromedriver",
-      "required": false
     },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot",
-      "value": "",
-      "required": true
+      "value": ""
     },
     "DOWNLOAD_PFP_URL_CLOCK": {
       "description": "Needed for autopic module. A url that is a preview link of your Profile Pic",
@@ -154,24 +141,8 @@
     },
     "OPEN_WEATHER_MAP_APPID": {
       "description": "Get your own APPID from https://api.openweathermap.org/data/2.5/weather",
-      "value": "",
       "required": false
     },
-    "NO_OF_BUTTONS_DISPLAYED_IN_HELP_ME_CMD": {
-      "description": " Set The Amount Of Buttons Displayed In Help Command",
-      "value": "",
-      "required": true
-    },
-    "NO_OF_COLUMS_DISPLAYED_IN_HELP_ME_CMD": {
-      "description": "Set The Amount Of Rows You Want To Displayed In Help Command default 3",
-      "value": "3",
-      "required": true
-    },
-    "EMOJI_TO_DISPLAY_IN_HELP": {
-      "description": "Set The emojies You Want to Add In Help Command You Can Add Multiple Emojies too!!",
-      "value": "",
-      "required": true
-    }, 
     "TZ": {
       "description": "Required for Correct Time for autopic get from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
       "value": "Asia/Kolkata",
@@ -183,7 +154,6 @@
       "required": false 
     }
   },
-
   "addons": [
     {
       "plan": "heroku-postgresql",
@@ -209,4 +179,3 @@
     "url": "heroku/python"
   }]
 }
-      
