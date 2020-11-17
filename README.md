@@ -15,7 +15,7 @@
 
 ### EASY WAY TO DEPLOY
 
-<p align="centre"><a href="https://heroku.com/deploy?template=https://github.com/aritramandal/LEGEND"> <img src="https://telegra.ph/file/14622d86012de536952cc.jpg" alt="Deploy to Heroku" width="200" height="33.33"/></a></p>
+<p align="centre"><a href="https://heroku.com/deploy?template=https://github.com/you-are-under-arrest/LEGEND"> <img src="https://telegra.ph/file/14622d86012de536952cc.jpg" alt="Deploy to Heroku" width="200" height="33.33"/></a></p>
 
 ### STRING SESSION 
 
