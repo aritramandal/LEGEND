@@ -104,7 +104,7 @@
       "required": false
     },
     "PM_LOGGR_BOT_API_ID": {
-       "description": "for login private messages create a private channel and do .get_id and add that id", 
+       "description": "for login private messages create a private channel and type any message there and then forward it to @ShowJsonBot there you'll get many IDs.. copy that id which precedes 'forward_from_chat' paste that value here..", 
        "value": ""
     }, 
     "STRING_SESSION": {
