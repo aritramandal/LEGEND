@@ -1,4 +1,5 @@
-# This plugin made by noob @none1p.. don't copy it plzz.. credit goes to @none1p
+# This plugin made by noob @none1p and @YOU_ARE_UNDER_ARREST.. don't copy it plzz.. credit goes to @none1p and half to @YOU_ARE_UNDER_ARREST 😅😅😅😅😂
+
 from telethon import events
 import asyncio
 import os
@@ -24,7 +25,7 @@ img15=("https://telegra.ph/file/6a561f28fa2e3151e19ce.mp4")
 img16=("https://telegra.ph/file/2e6647c61f188addc10d6.mp4")
     
     
-@borg.on(admin_cmd(outgoing=True, pattern="baby"))
+@borg.on(admin_cmd(outgoing=True, pattern="bby"))
 
 async def _(event):
 
