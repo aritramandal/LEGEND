@@ -37,7 +37,7 @@ async def install(event):
             os.remove(downloaded_file_name)
     await asyncio.sleep(DELETE_TIMEOUT)
     await event.delete()
-
+thumb_image_path = ".Resources/IMG_20201117_113235_671.jpg"
 @command(pattern="^.send (?P<shortname>\w+)$", outgoing=True)
 async def send(event):
     if event.fwd_from:
