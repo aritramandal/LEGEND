@@ -9,7 +9,7 @@ from uniborg.util import admin_cmd
 from userbot import ALIVE_NAME
 
 
-DEL_TIME_OUT = 60
+DEL_TIME_OUT = 10
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@YOU_ARE_UNDER_ARREST"
 
 
@@ -20,7 +20,7 @@ async def _(event):
     while True:
         DMY = time.strftime("%d.%m.%Y")
         HM = time.strftime("%H:%M:%S")
-        name = f"⌚{HM} 🔥{DEFAULTUSER}🔥 📅{DMY}"
+        name = f"⏱{HM}⏱ 💎{DEFAULTUSER}💎 🗓{DMY}🗓"
         logger.info(name)
         try:
             await borg(functions.account.UpdateProfileRequest(  # pylint:disable=E0602
@@ -37,4 +37,4 @@ async def _(event):
             #     "Successfully Changed Profile Name"
             # )
         await asyncio.sleep(DEL_TIME_OUT)
-    await event.edit(f"Auto Name has been started Master") 
+    await event.edit(f"Auto Name has been started .. please check your profile 📷") 
