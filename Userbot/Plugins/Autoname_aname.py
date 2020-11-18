@@ -13,7 +13,7 @@ DEL_TIME_OUT = 60
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@YOU_ARE_UNDER_ARREST"
 
 
-@borg.on(admin_cmd(pattern="an"))  # pylint:disable=E0602
+@borg.on(admin_cmd(pattern="aname"))  # pylint:disable=E0602
 async def _(event):
     if event.fwd_from:
         return
