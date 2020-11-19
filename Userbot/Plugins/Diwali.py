@@ -2,6 +2,7 @@
 # Use With Or Without Credit
 # Originally Made for Phantom Userbot
 # HAPPY DIWALI TO ALL
+# Now to be used in LEGEND USERBOT
 
 from telethon import events
 import asyncio 
