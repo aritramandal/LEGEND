@@ -5,7 +5,7 @@ from userbot.utils import admin_cmd
 from userbot import ALIVE_NAME
 import random, re
 from collections import deque
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Cat"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "cat"
 
 @borg.on(admin_cmd(pattern=r"star$", outgoing=True))
 async def _(event):
@@ -22,7 +22,7 @@ async def _(event):
 	if event.fwd_from:
 		return
 	deq = deque(list("🟥🟧🟨🟩🟦🟪🟫⬛⬜"))
-	for _ in range(48):
+	for _ in range(999):
 		await asyncio.sleep(0.1)
 		await event.edit("".join(deq))
 		deq.rotate(1)
@@ -36,26 +36,6 @@ async def _(event):
 		await asyncio.sleep(0.1)
 		await event.edit("".join(deq))
 		deq.rotate(1)
-
-@borg.on(admin_cmd(pattern=r"clol$"))
-async def _(event):
-	if event.fwd_from:
-		return
-	deq = deque(list("🤔🧐🤨🤔🧐🤨"))
-	for _ in range(48):
-		await asyncio.sleep(0.1)
-		await event.edit("".join(deq))
-		deq.rotate(1)		
-
-@borg.on(admin_cmd(pattern=r"odra$"))
-async def _(event):
-	if event.fwd_from:
-		return
-	deq = deque(list("🚶🏃🚶🏃🚶🏃🚶🏃"))
-	for _ in range(48):
-		await asyncio.sleep(0.1)
-		await event.edit("".join(deq))
-		deq.rotate(1)		
 		
 @borg.on(admin_cmd(pattern=r"deploy$"))
 async def _(event):
@@ -282,4 +262,4 @@ async def _(event):
             ]
     for i in animation_ttl:
             await asyncio.sleep(animation_interval)
-            await event.edit(animation_chars[i % 8])
+            await event.edit(animation_chars[i % 8])      

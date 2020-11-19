@@ -1,9 +1,3 @@
-#Made By @ceowhitehatcracks Keep Credits If You Are Goanna Kang This Lol
-
-#And Thanks To The Creator Of Autopic This Script Was Made from Snippets From That Script
-
-#Usage .avengersdp Im Not Responsible For Any Ban caused By This
-
 import requests , re , random 
 
 import urllib , os 
@@ -20,17 +14,17 @@ import asyncio
 
 from time import sleep
 
-COLLECTION_STRING = [
+COLLECTION_STRINGZ = [
 
-  "avengers-logo-wallpaper",
+  "star-wars-wallpaper-1080p",
 
-  "avengers-hd-wallpapers-1080p",
+  "4k-sci-fi-wallpaper",
 
-  "avengers-iphone-wallpaper",
+  "star-wars-iphone-6-wallpaper",
 
-  "iron-man-wallpaper-1920x1080",
+  "kylo-ren-wallpaper",
 
-  "iron-man-wallpapers"
+  "darth-vader-wallpaper"
 
 ]
 
@@ -38,9 +32,9 @@ async def animepp():
 
     os.system("rm -rf donot.jpg")
 
-    rnd = random.randint(0, len(COLLECTION_STRING) - 1)
+    rnd = random.randint(0, len(COLLECTION_STRINGZ) - 1)
 
-    pack = COLLECTION_STRING[rnd]
+    pack = COLLECTION_STRINGZ[rnd]
 
     pc = requests.get("http://getwallpapers.com/collection/" + pack).text
 
@@ -58,11 +52,11 @@ async def animepp():
 
     urllib.request.urlretrieve(fy,"donottouch.jpg")
 
-@borg.on(admin_cmd(pattern="avengersdp ?(.*)"))
+@borg.on(admin_cmd(pattern="gamerdp ?(.*)"))
 
 async def main(event):
 
-    await event.edit("**Starting Avengers Profile Pic...\n\nDone !!! Check Your DP By @Ceowhitehatcracks**")
+    await event.edit("**Starting Gamer Profile Pic...\n\nDone !!! Check Your DP") #Owner @ceowhitehatcracks
 
     while True:
 
@@ -74,5 +68,4 @@ async def main(event):
 
         os.system("rm -rf donottouch.jpg")
 
-        await asyncio.sleep(1000) #Edit this to your required needs
-
+        await asyncio.sleep(3600) #Edit this to your required needs
