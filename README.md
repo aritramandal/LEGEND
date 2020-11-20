@@ -13,6 +13,10 @@
 
 ### MADE WITH PYTHON
 
+
+[![Build Status](https://travis-ci.com/aritramandal/LEGEND.svg?branch=master)](https://travis-ci.com/aritramandal/LEGEND) ![Python Version](https://img.shields.io/badge/python-3.8-lightgrey) ![Release](https://img.shields.io/github/v/release/aritramandal/LEGEND) ![Stars](https://img.shields.io/github/stars/aritramandal/LEGEND) ![Forks](https://img.shields.io/github/forks/aritramandal/LEGEND) ![Issues Open](https://img.shields.io/github/issues/aritramandal/LEGEND) ![Issues Closed](https://img.shields.io/github/issues-closed/aritramandal/LEGEND) ![PR Open](https://img.shields.io/github/issues-pr/aritramandal/LEGEND) ![PR Closed](https://img.shields.io/github/issues-pr-closed/aritramandal/LEGEND) ![Contributors](https://img.shields.io/github/contributors/aritramandal/LEGEND) ![Repo Size](https://img.shields.io/github/repo-size/aritramandal/LEGEND) ![License](https://img.shields.io/github/license/aritramandal/LEGEND) ![Commit Activity](https://img.shields.io/github/commit-activity/m/aritramandal/LEGEND) [![Main Repo!](https://img.shields.io/badge/Main%20Repo-!-orange)](https://github.com/aritramandal/LEGEND) [![Join Channel!](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/legend_userbot_support_channel) [![DeepSource](https://static.deepsource.io/deepsource-badge-light-mini.svg)](https://deepsource.io/gh/aritramandal/LEGEND/?ref=repository-badge)
+
+
 ### EASY WAY TO DEPLOY
 
 <p align="centre"><a href="https://heroku.com/deploy?template=https://github.com/you-are-under-arrest/LEGEND"> <img src="https://telegra.ph/file/14622d86012de536952cc.jpg" alt="Deploy to Heroku" width="200" height="33.33"/></a></p>
