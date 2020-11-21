@@ -60,7 +60,7 @@
 
 
 
-### The Normal Way
+###  The Normal Way
 
 An example `local_config.py` file could be:
 
