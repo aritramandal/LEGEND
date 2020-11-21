@@ -11,7 +11,7 @@
     "productivity"
   ],
   "repository": "https://github.com/you-are-under-arrest/legend",
-  "website": "#ToDo",
+  "website": "https://github.com/you-are-under-arrest/legend",
   "success_url": "https://t.me/legend_userbot_support",
   "env": {
     "ENV": {
