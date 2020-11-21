@@ -10,8 +10,8 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/you-are-under-arrest/legend",
-  "website": "https://github.com/you-are-under-arrest/legend",
+  "repository": "https://github.com/you-are-under-arrest/legend/",
+  "website": "https://github.com/you-are-under-arrest/legend/",
   "success_url": "https://t.me/legend_userbot_support",
   "env": {
     "ENV": {
