@@ -12,7 +12,6 @@
   "repository": "https://github.com/aritramandal/LEGEND/",
   "website": "https://github.com/aritramandal/LEGEND/",
   "success_url": "https://t.me/LEGEND_USERBOT_SUPPORT/",
-  "stack": "container",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
