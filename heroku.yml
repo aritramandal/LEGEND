@@ -1,5 +1,2 @@
-build: 
-  docker:
-      worker: python3 -m Userbot
-run:
+
   worker: python3 -m Userbot
