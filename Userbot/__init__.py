@@ -3,7 +3,7 @@ import os
 import sys
 from telethon.sessions import StringSession
 from telethon import TelegramClient
-from userbot.helpers import functions as darkdef
+from userbot.helper import functions as darkdef
 from var import Var
 
 os.system("pip install --upgrade pip")
@@ -24,8 +24,7 @@ LOAD_PLUG = {}
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
 
-CAT_ID = ["1317466348"]
-CAT_ID = ["1201167754"]
+CAT_ID = ["1289422521"]
 
 """ PPE initialization. """
 
@@ -50,7 +49,8 @@ if bool(ENV):
                     level=INFO)
     LOGS = getLogger(__name__)
 
-
+    # Check if the config was edited by using the already used variable.
+    # Basically, its the 'virginity check' for the config file ;)
     CONFIG_CHECK = os.environ.get(
         "___________PLOX_______REMOVE_____THIS_____LINE__________", None)
 
