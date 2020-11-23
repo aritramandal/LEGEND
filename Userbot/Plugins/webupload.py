@@ -1,11 +1,11 @@
 # originally created by
-# https://github.com/Total-Noob-69/X-tra-Telegram/blob/master/userbot/plugins/webupload.py
+# https://github.com/Total-Noob-69/X-tra-Telegram/blob/master/Userbot/plugins/webupload.py
 # modified by __me__ to suit **my** needs
 """webupload ?(.+?|) --(fileio|oload|anonfiles|transfer|filebin|anonymousfiles|megaupload|bayfiles"""
 
 import json
 import os
-from userbot import CMD_HELP
+from Userbot import CMD_HELP
 from telethon import events
 import subprocess
 import os
@@ -13,7 +13,7 @@ from telethon.errors import MessageEmptyError, MessageTooLongError, MessageNotMo
 import io
 import asyncio
 import time
-from userbot.utils import admin_cmd
+from Userbot.utils import admin_cmd
 
 @borg.on(admin_cmd(pattern="webupload ?(.+?|) (?:--)(anonfiles|transfer|filebin|anonymousfiles|megaupload|bayfiles)"))
 async def _(event):
