@@ -1,7 +1,7 @@
 from telethon import events
-from userbot.utils import admin_cmd
+from Userbot.utils import admin_cmd
 import random, re, asyncio
-from userbot import CMD_HELP
+from Userbot import CMD_HELP
 from collections import deque
 
 @borg.on(admin_cmd(pattern=r"lul$"))
@@ -19,7 +19,7 @@ async def _(event):
 async def _(event):
 	if event.fwd_from:
 		return
-	deq = deque(list("😁☹️😁☹️😁☹️😁"))
+	deq = deque(list("🥺☹️🥺☹️🥺☹️🥺"))
 	for _ in range(48):
 		await asyncio.sleep(0.1)
 		await event.edit("".join(deq))
