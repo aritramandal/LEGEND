@@ -1,6 +1,6 @@
-from userbot import bot
+from Userbot import bot
 from telethon import events
-from userbot.utils import command, remove_plugin, load_module
+from Userbot.utils import command, remove_plugin, load_module
 from var import Var
 import importlib
 from pathlib import Path
@@ -9,7 +9,7 @@ import sys
 import asyncio
 import traceback
 import os
-import userbot.utils
+import Userbot.utils
 from datetime import datetime
 
 DELETE_TIMEOUT = 7
