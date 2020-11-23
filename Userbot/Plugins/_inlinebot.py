@@ -5,7 +5,7 @@ import random
 import re
 from telethon.tl.custom import Button 
 from telethon import events, errors, custom
-from userbot import CMD_LIST
+from Userbot import CMD_LIST
 import io
 if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
 
