@@ -11,15 +11,15 @@ from telethon import errors
 import random
 from os import execl
 from telethon import events
-from userbot import bot
+from Userbot import bot
 import sys
 import io
 import html
 from telethon.errors import ChatSendStickersForbiddenError
 import json
 from PIL import ImageEnhance, ImageOps
-from userbot import CMD_HELP
-from userbot.events import register
+from Userbot import CMD_HELP
+from Userbot.events import register
 from telethon.tl.functions.messages import GetInlineBotResultsRequest
 
 @register(outgoing=True, pattern="^.stic ?(.*)")
