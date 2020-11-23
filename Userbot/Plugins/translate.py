@@ -5,7 +5,7 @@ Available Commands:
 
 import emoji
 from googletrans import Translator
-from userbot.utils import admin_cmd
+from Userbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="tl ?(.*)"))
