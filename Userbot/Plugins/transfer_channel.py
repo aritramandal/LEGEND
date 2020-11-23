@@ -5,7 +5,7 @@ Available Commands:
 import telethon.password as pwd_mod
 # https://t.me/TelethonChat/140200
 from telethon.tl import functions, types
-from userbot import utils
+from Userbot import utils
 
 
 @borg.on(utils.admin_cmd(pattern="otransfer (.*)"))  # pylint:disable=E0602
