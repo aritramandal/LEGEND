@@ -14,7 +14,7 @@ import asyncio
 import os
 import sys
 import random
-from userbot.utils import admin_cmd
+from Userbot.utils import admin_cmd
 
 @borg.on(admin_cmd(pattern=r"joke", outgoing=True))
 async def _(event):
