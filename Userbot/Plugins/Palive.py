@@ -5,8 +5,8 @@ import requests
 import time
 from PIL import Image
 from io import BytesIO
-from userbot import ALIVE_NAME
-from userbot.utils import admin_cmd
+from Userbot import ALIVE_NAME
+from Userbot.utils import admin_cmd
 from datetime import datetime
 
 ALIVE_PHOTO = os.environ.get("ALIVE_PHOTO" , None)
