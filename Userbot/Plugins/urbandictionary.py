@@ -5,7 +5,7 @@
 Syntax: .ud Query"""
 from telethon import events
 import asyncurban
-from userbot.utils import admin_cmd
+from Userbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="ud (.*)"))
