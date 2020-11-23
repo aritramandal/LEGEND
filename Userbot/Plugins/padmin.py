@@ -7,11 +7,11 @@ Available Commands:
 from telethon import events
 
 import asyncio
-from userbot import CMD_HELP
-from userbot.utils import admin_cmd
+from Userbot import CMD_HELP
+from Userbot.utils import admin_cmd
 
-from userbot import ALIVE_NAME
-from userbot.utils import admin_cmd
+from Userbot import ALIVE_NAME
+from Userbot.utils import admin_cmd
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "cat"
 
