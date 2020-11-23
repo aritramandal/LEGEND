@@ -6,11 +6,11 @@ import time
 from telethon.tl import functions
 from telethon.errors import FloodWaitError
 from uniborg.util import admin_cmd
-from userbot import ALIVE_NAME
+from Userbot import ALIVE_NAME
 
 
 DEL_TIME_OUT = 10
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@YOU_ARE_UNDER_ARREST"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "𖤍𖤍𖤍☞𝕃𝔼𝔾𝔼ℕ𝔻 𝕌𝔹☜𖤍𖤍𖤍"
 
 
 @borg.on(admin_cmd(pattern="aname"))  # pylint:disable=E0602
