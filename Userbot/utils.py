@@ -1,9 +1,9 @@
-from userbot import bot
+from Userbot import bot
 from telethon import events
 from pathlib import Path
 from var import Var
-from userbot import LOAD_PLUG
-from userbot import CMD_LIST
+from Userbot import LOAD_PLUG
+from Userbot import CMD_LIST
 import re
 import logging
 import inspect
@@ -24,7 +24,7 @@ from typing import List
 
 ENV = bool(os.environ.get("ENV", False))
 if ENV:
-    from userbot.uniborgConfig import Config
+    from Userbot.uniborgConfig import Config
 else:
     if os.path.exists("config.py"):
         from config import Development as Config
