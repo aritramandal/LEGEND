@@ -1,9 +1,9 @@
 from telethon import events
 import asyncio
-from userbot.utils import admin_cmd
-from userbot import ALIVE_NAME
+from Userbot.utils import admin_cmd
+from Userbot import ALIVE_NAME
 import random, re
-from userbot import CMD_HELP
+from Userbot import CMD_HELP
 from collections import deque
 import importlib.util
 import random
@@ -156,7 +156,7 @@ async def _(event):
             "⬜⬜⬛⬜⬜\n⬜⬜⬛⬜⬜\n⬜⬜🔴⬜⬜",
             "⬜⬜⬛⬜⬜\n⬜⬛⬜⬜⬜\n🔴⬜⬜⬜⬜",
             "🔴⬛⬛⬜⬜\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜⬜",
-	    "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n⬜  [CAT IS BEST](https://github.com/Sur-vivor/CatUserbot) ⬜\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜"
+	    "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n⬜  [Legend IS BEST](https://github.com/Sur-vivor/LegendUserbot) ⬜\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜"
             
  ]
     if event.fwd_from:
@@ -216,7 +216,7 @@ async def _(event):
 
 @borg.on(admin_cmd(pattern=f"charging$"))
 async def timer_blankx(e):
- txt=e.text[10:] + '\n\n`Tesla Wireless Charging (beta) Started...\nDevice Detected: Nokia 1100\nBattery Percentage:` '
+ txt=e.text[10:] + '\n\n`Tesla Wireless Charging (beta) Started...\nDevice Detected: Apple ios 🍎 A90\nBattery Percentage:` '
  j=10
  k=j
  for j in range(j):
@@ -224,4 +224,4 @@ async def timer_blankx(e):
   k=k+10
   await asyncio.sleep(1)
  await asyncio.sleep(1) 
- await e.edit("`Tesla Wireless Charging (beta) Completed...\nDevice Detected: Nokia 1100 (Space Grey Varient)\nBattery Percentage:` [100%](https://telegra.ph/file/a45aa7450c8eefed599d9.mp4) ", link_preview=True)
+ await e.edit("`Tesla Wireless Charging (beta) Completed...\nDevice Detected: Apple ios 🍎 (Space Grey Varient)\nBattery Percentage:` [100%](https://telegra.ph/file/a45aa7450c8eefed599d9.mp4) ", link_preview=True)
