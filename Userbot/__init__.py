@@ -27,7 +27,7 @@ ENV = os.environ.get("ENV", False)
 CAT_ID = ["1317466348"]
 
 CAT_ID = ["1201167754"]
-
+ 
 """ PPE initialization. """
 
 from logging import basicConfig, getLogger, INFO, DEBUG
@@ -68,7 +68,7 @@ if bool(ENV):
         BOTLOG_CHATID = int(BOTLOG_CHATID)
     except:
         pass
-
+  
     # Userbot logging feature switch.
     BOTLOG = sb(os.environ.get("BOTLOG", "False"))
     LOGSPAMMER = sb(os.environ.get("LOGSPAMMER", "False"))
