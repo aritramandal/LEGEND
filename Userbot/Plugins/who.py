@@ -6,7 +6,7 @@ import html
 from telethon import events
 from telethon import utils
 from telethon.tl import types
-from userbot.utils import admin_cmd
+from Userbot.utils import admin_cmd
 from telethon.errors import (BadRequestError, ChatAdminRequiredError,
                              ImageProcessFailedError, PhotoCropSizeSmallError,
                              UserAdminInvalidError)
