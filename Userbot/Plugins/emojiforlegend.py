@@ -4,8 +4,8 @@
 
 from telethon import events
 import asyncio
-from userbot.utils import admin_cmd
-from userbot import ALIVE_NAME
+from Userbot.utils import admin_cmd
+from Userbot import ALIVE_NAME
 import random
 import re
 from userbot import CMD_HELP
