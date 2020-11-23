@@ -1,6 +1,6 @@
-from userbot.utils import admin_cmd
+from Userbot.utils import admin_cmd
 
-@borg.on(admin_cmd(pattern=r"bi ?(.*)"))
+@borg.on(admin_cmd(pattern=r"bid ?(.*)"))
 async def bid(event):
     giveVar = event.text
     bid = giveVar[4:5]
