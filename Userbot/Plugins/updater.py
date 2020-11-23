@@ -7,8 +7,8 @@ import asyncio
 import sys
 from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
-from userbot import CMD_HELP, bot
-from userbot.utils import admin_cmd
+from Userbot import CMD_HELP, bot
+from Userbot.utils import admin_cmd
 
 UPSTREAM_REPO_URL = "http://github.com/aritramandal/LEGEND"
 HEROKU_API_KEY = Var.HEROKU_API_KEY
