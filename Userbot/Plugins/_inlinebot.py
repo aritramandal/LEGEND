@@ -3,11 +3,35 @@ import asyncio
 import json
 import random
 import re
+from telethon.tl.custom import Button 
 from telethon import events, errors, custom
 from userbot import CMD_LIST
 import io
-
 if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
+
+    @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"back")))
+   
+    async def backr(event):
+            if event.query.user_id == bot.uid :
+                current_page_number=0
+                buttons = paginate_help(current_page_number, CMD_LIST, "helpme")
+                await event.edit("Here U R At Main Menu", buttons=buttons)
+            else:
+                reply_pop_up_alert = "Please get your own Userbot,for more info visit @LEGEND_USERBOT_SUPPORT!"
+                await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
+
+    @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"open")))
+   
+    async def opner(event):
+            if event.query.user_id == bot.uid :
+                current_page_number=0
+                buttons = paginate_help(current_page_number, CMD_LIST, "helpme")
+                await event.edit("OKK MASTER U WANT IT BACK", buttons=buttons)
+            else:
+                reply_pop_up_alert = "Please get your own Userbot,for more info visit @LEGEND_USERBOT_SUPPORT!"
+                await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
+               
+
     @tgbot.on(events.InlineQuery)  # pylint:disable=E0602
     async def inline_handler(event):
         builder = event.builder
@@ -16,14 +40,11 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         if event.query.user_id == bot.uid and query.startswith("Userbot"):
             rev_text = query[::-1]
             buttons = paginate_help(0, CMD_LIST, "helpme")
-            result = builder.article(
-                "® LEGEND ™",
-                text="{}\nCurrently Loaded Plugins: {}".format(
-                    query, len(CMD_LIST)),
-                buttons=buttons,
-                link_preview=False
-            )
-        await event.answer([result] if result else None)
+            result = builder.article("® Userbot Help",text="{}\nCurrently Loaded Plugins: {}".format(query, len(CMD_LIST)),buttons=buttons,link_preview=False)
+            await event.answer([result] if result else None)
+        else:
+              reply_pop_up_alert = "Please get your own Userbot,for more info visit @LEGEND_USERBOT_SUPPORT!"
+              await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
     @tgbot.on(events.callbackquery.CallbackQuery(  # pylint:disable=E0602
         data=re.compile(b"helpme_next\((.+?)\)")
     ))
@@ -31,12 +52,13 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         if event.query.user_id == bot.uid:  # pylint:disable=E0602
             current_page_number = int(
                 event.data_match.group(1).decode("UTF-8"))
+            
             buttons = paginate_help(
                 current_page_number + 1, CMD_LIST, "helpme")
             # https://t.me/TelethonChat/115200
             await event.edit(buttons=buttons)
         else:
-            reply_pop_up_alert = "DEPLOY your own userbot.. don't use mine stupid\n for any query join @LEGEND_USERBOT_SUPPORT!"
+            reply_pop_up_alert = "Deploy your own userbot stupid\n don't use mine!\n for any query join @LEGEND_USERBOT_SUPPORT!"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
 
@@ -47,6 +69,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         if event.query.user_id == bot.uid:  # pylint:disable=E0602
             current_page_number = int(
                 event.data_match.group(1).decode("UTF-8"))
+            
             buttons = paginate_help(
                 current_page_number - 1,
                 CMD_LIST,  # pylint:disable=E0602
@@ -55,15 +78,16 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             # https://t.me/TelethonChat/115200
             await event.edit(buttons=buttons)
         else:
-            reply_pop_up_alert = "DEPLOY your own userbot.. don't use mine stupid\n for any query join @LEGEND_USERBOT_SUPPORT!!"
+            reply_pop_up_alert = "Deploy your own userbot stupid..\n..don't use mine!\n for any query join @LEGEND_USERBOT_SUPPORT"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"close")))
     async def on_plug_in_callback_query_handler(event):
         if event.query.user_id == bot.uid:
-            await event.edit("The menu has been closed..!")
-
-
+            fci = custom.Button.inline("Open Main Menu Again", data="open")
+            await event.edit("The menu has been closed..!", buttons=fci)
+            
+  
 
     @tgbot.on(events.callbackquery.CallbackQuery(  # pylint:disable=E0602
         data=re.compile(b"us_plugin_(.*)")
@@ -81,13 +105,19 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             reply_pop_up_alert = "{} is useless".format(plugin_name)
         else:
             reply_pop_up_alert = help_string
-        reply_pop_up_alert += "\n Use .unload {} to remove this plugin.. this may not work sorry for this..\n\
-            ® LEGEND™ Userbot".format(plugin_name)
+        reply_pop_up_alert += "\n Use .unload {} to remove this plugin\n\
+            ®LEGEND Userbot".format(plugin_name)
         try:
-            await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
+            #fci = [[Button.inline('Go back', 'back')]] 
+            if event.query.user_id == bot.uid :
+                fci = custom.Button.inline(" Main Menu", data="back")
+                await event.edit(reply_pop_up_alert, buttons=fci)
+            else:
+                reply_pop_up_alert = "Deploy your own userbot stupid\n don't use mine..\n for any query join @LEGEND_USERBOT_SUPPORT!"
+                await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
         except: 
             halps = "Do .help {} to get the list of commands.".format(plugin_name)
-            await event.answer(halps, cache_time=0, alert=True)
+            await event.edit(halps)
 
 def paginate_help(page_number, loaded_plugins, prefix):
     number_of_rows = Config.NO_OF_BUTTONS_DISPLAYED_IN_H_ME_CMD
@@ -110,8 +140,8 @@ def paginate_help(page_number, loaded_plugins, prefix):
     if len(pairs) > number_of_rows:
         pairs = pairs[modulo_page * number_of_rows:number_of_rows * (modulo_page + 1)] + \
             [
-            (custom.Button.inline("☜☚︎", data="{}_prev({})".format(prefix, modulo_page)),
-             custom.Button.inline("♨☟Close☟♨︎", data="close"),
-             custom.Button.inline("☛︎☞", data="{}_next({})".format(prefix, modulo_page)))
+            (custom.Button.inline("☜«☚︎", data="{}_prev({})".format(prefix, modulo_page)),
+             custom.Button.inline("☟𝙲𝙻𝙾𝚂𝙴☟", data="close"),
+             custom.Button.inline("☛︎»☞", data="{}_next({})".format(prefix, modulo_page)))
         ]
     return pairs
