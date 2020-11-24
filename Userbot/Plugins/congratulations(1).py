@@ -1,7 +1,7 @@
 from telethon import events
 import random, re
 from uniborg.util import admin_cmd
-
+     
 RUNSREACTS = [
     "`Congratulations and BRAVO!`",
     "`You did it! So proud of you!`",
