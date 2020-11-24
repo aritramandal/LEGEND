@@ -3,7 +3,7 @@ custom riddle questions...
 Syntax: .rdl
   inspired by : conversationqt.py
   made by : @Hacker_The_Unknown | Noob
-  edited by : @Hacker_The_Unknown | Noob
+  edited by : @YOU_ARE_UNDER_ARREST| Ultra pro max Noob
   
   # KANG wITH CREDIT
 """
@@ -14,7 +14,7 @@ import asyncio
 import os
 import sys
 import random
-from userbot.utils import admin_cmd
+from Userbot.utils import admin_cmd
 
 
 
