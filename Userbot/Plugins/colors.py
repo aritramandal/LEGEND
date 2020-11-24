@@ -3,8 +3,8 @@ Syntax: .color <color_code>"""
 from telethon import events
 import os
 from PIL import Image, ImageColor
-from userbot.utils import admin_cmd
-from userbot import CMD_HELP
+from Userbot.utils import admin_cmd
+from Userbot import CMD_HELP
 
 @borg.on(admin_cmd(pattern="color (.*)"))
 async def _(event):
