@@ -2,12 +2,12 @@
 #repo https://github.com/aritramandal/LEGEND
 #if wanna copy don't remove the credit lines..
 from Userbot.utils import admin_cmd
-
+     
 @borg.on(admin_cmd(pattern=r"ari ?(.*)"))
 async def ari(event):
     giveVar = event.text
     ari = giveVar[4:5]
     if not ari:
-        ari = "💀" 
+        ari = "😁" 
     await event.edit(
         f"ㅤㅤㅤㅤㅤ{ari}{ari}\n                 {ari}{ari}{ari}\n               {ari}{ari}{ari}{ari}\n             {ari}{ari}     {ari}{ari}\n           {ari}{ari}        {ari}{ari}\n          {ari}{ari}          {ari}{ari}\n        {ari}{ari}{ari}{ari}{ari}{ari}{ari}\n      {ari}{ari}{ari}{ari}{ari}{ari}{ari}{ari}\n    {ari}{ari}                         {ari}{ari}\n  {ari}{ari}                             {ari}{ari}\n{ari}{ari}                                 {ari}{ari}\n\n{ari}{ari}{ari}{ari}{ari}{ari}{ari}\n{ari}{ari}{ari}{ari}{ari}{ari}{ari}\n{ari}{ari}              {ari}{ari}\n{ari}{ari}                  {ari}{ari}\n{ari}{ari}ㅤㅤㅤㅤ   {ari}{ari}\n{ari}{ari}ㅤㅤㅤ   {ari}{ari}\n{ari}{ari}{ari}{ari}{ari}{ari}{ari}\n{ari}{ari}{ari}{ari}{ari}{ari}{ari}\n{ari}{ari}                {ari}{ari}\n{ari}{ari}                  {ari}{ari}\n{ari}{ari}ㅤㅤㅤㅤ      {ari}{ari}\n{ari}{ari}ㅤㅤㅤ           {ari}{ari}\n{ari}{ari}                         {ari}{ari}\n{ari}{ari}ㅤㅤㅤㅤㅤㅤㅤ  {ari}{ari}\n\n{ari}{ari}{ari}{ari}{ari}{ari}\n{ari}{ari}{ari}{ari}{ari}{ari}\n          {ari}{ari}\n          {ari}{ari}\n          {ari}{ari}\n          {ari}{ari}\n          {ari}{ari}\n          {ari}{ari}\n{ari}{ari}{ari}{ari}{ari}{ari}\n{ari}{ari}{ari}{ari}{ari}{ari}\n\n{ari}{ari}{ari}{ari}{ari}{ari}{ari}{ari}\n{ari}{ari}{ari}{ari}{ari}{ari}{ari}{ari}\n               {ari}{ari}\n               {ari}{ari}\n               {ari}{ari}\n               {ari}{ari}\n               {ari}{ari}\n               {ari}{ari}\n\n{ari}{ari}{ari}{ari}{ari}{ari}{ari}\n{ari}{ari}{ari}{ari}{ari}{ari}{ari}\n{ari}{ari}              {ari}{ari}\n{ari}{ari}                  {ari}{ari}\n{ari}{ari}ㅤㅤㅤㅤ   {ari}{ari}\n{ari}{ari}ㅤㅤㅤ   {ari}{ari}\n{ari}{ari}{ari}{ari}{ari}{ari}{ari}\n{ari}{ari}{ari}{ari}{ari}{ari}{ari}\n{ari}{ari}                {ari}{ari}\n{ari}{ari}                  {ari}{ari}\n{ari}{ari}ㅤㅤㅤㅤ      {ari}{ari}\n{ari}{ari}ㅤㅤㅤ           {ari}{ari}\n{ari}{ari}                         {ari}{ari}\n{ari}{ari}ㅤㅤㅤㅤㅤㅤㅤ  {ari}{ari}\n\nㅤㅤㅤㅤㅤ{ari}{ari}\n                 {ari}{ari}{ari}\n               {ari}{ari}{ari}{ari}\n             {ari}{ari}     {ari}{ari}\n           {ari}{ari}        {ari}{ari}\n          {ari}{ari}          {ari}{ari}\n        {ari}{ari}{ari}{ari}{ari}{ari}{ari}\n      {ari}{ari}{ari}{ari}{ari}{ari}{ari}{ari}\n    {ari}{ari}                         {ari}{ari}\n  {ari}{ari}                             {ari}{ari}\n{ari}{ari}                                 {ari}{ari}\n\n\n\n\n         .. \n\n\n\n\n\n\n\n ..
