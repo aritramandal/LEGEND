@@ -8,8 +8,8 @@
 from subprocess import PIPE
 from subprocess import run as runapp
 import pybase64
-from userbot import CMD_HELP
-from userbot.utils import admin_cmd, errors_handler
+from Userbot import CMD_HELP
+from Userbot.utils import admin_cmd, errors_handler
 
 
 @borg.on(admin_cmd(outgoing=True, pattern="hash (.*)"))
