@@ -8,7 +8,7 @@ import random
 from os import execl
 import time
 from telethon import events
-from userbot import bot
+from Userbot import bot
 from collections import deque
 import requests
 import sys
@@ -18,8 +18,8 @@ import html
 import json
 from PIL import ImageEnhance, ImageOps
 
-from userbot import CMD_HELP
-from userbot.events import register
+from Userbot import CMD_HELP
+from Userbot.events import register
 
 
 
