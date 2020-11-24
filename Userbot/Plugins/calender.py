@@ -5,7 +5,7 @@ import asyncio
 from datetime import datetime
 import requests
 import json
-from userbot.utils import admin_cmd
+from Userbot.utils import admin_cmd
 import logging
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
