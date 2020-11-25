@@ -3,11 +3,8 @@ import os
 import sys
 from telethon.sessions import StringSession
 from telethon import TelegramClient
-from Userbot.helpers import fonts as fonts
-from Userbot.helpers import functions as catdef
-
+from Userbot.helper import functions as darkdef
 from var import Var
-
 
 os.system("pip install --upgrade pip")
 if Var.STRING_SESSION:
@@ -19,6 +16,7 @@ else:
 
 
 CMD_LIST = {}
+SUDO_LIST = {}
 # for later purposes
 CMD_HELP = {}
 INT_PLUG = ""
@@ -27,17 +25,20 @@ LOAD_PLUG = {}
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
 
-CAT_ID = ["1201167754", "1317466348"]
+CAT_ID = ["1317466348", "1201167754"]
 
 """ PPE initialization. """
 
 from logging import basicConfig, getLogger, INFO, DEBUG
 from distutils.util import strtobool as sb
 import asyncio
-
 import pylast
 from pySmartDL import SmartDL
 from requests import get
+
+# Alive PIC
+ALIVE_PIC = os.environ.get("ALIVE_PIC" , None)
+
 # Bot Logs setup:
 if bool(ENV):
     CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -52,7 +53,8 @@ if bool(ENV):
                     level=INFO)
     LOGS = getLogger(__name__)
 
- 
+    # Check if the config was edited by using the already used variable.
+    # Basically, its the 'virginity check' for the config file ;)
     CONFIG_CHECK = os.environ.get(
         "___________PLOX_______REMOVE_____THIS_____LINE__________", None)
 
@@ -116,19 +118,30 @@ if bool(ENV):
     ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
     AUTONAME = os.environ.get("AUTONAME", None)
     REDIRECTCHANNEL = os.environ.get("REDIRECTCHANNEL", None)
+    SUDO_ALIVE_PIC = os.environ.get("SUDO_ALIVE_PIC", None)
 
     # Time & Date - Country and Time Zone
     COUNTRY = str(os.environ.get("COUNTRY", "India"))
 
     TZ_NUMBER = int(os.environ.get("TZ_NUMBER", 1))
+    
+    
+    #####
+    SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
+    SUDO_HNDLR = os.environ.get("SUDO_HNDLR", None)
+    
+    #####
 
     # Clean Welcome
     CLEAN_WELCOME = sb(os.environ.get("CLEAN_WELCOME", "True"))
     
-     # Custom Module
+    # Custom Module
     CUSTOM_PMPERMIT = os.environ.get("CUSTOM_PMPERMIT", None)
-    CUSTOM_STICKER_PACK_NAME = os.environ.get("CUSTOM_STICKER_PACK_NAME", None)
-    CUSTOM_ANIMATED_PACK_NAME = os.environ.get("CUSTOM_ANIMATED_PACK_NAME", None)
+    
+    # Upstream Repo
+    UPSTREAM_REPO_URL = os.environ.get(
+    "UPSTREAM_REPO_URL",
+    "https://github.com/ProThinkerGang/PhantomUserbot.git")
 
     # Last.fm Module
     BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -183,3 +196,5 @@ LASTMSG = {}
 CMD_HELP = {}
 ISAFK = False
 AFKREASON = None
+
+
