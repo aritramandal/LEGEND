@@ -3,14 +3,16 @@ import os
 import sys
 from telethon.sessions import StringSession
 from telethon import TelegramClient
-from Userbot.helper import functions as darkdef
+from Userbot.helpers import fonts as fonts
+from Userbot.helpers import functions as catdef
+
 from var import Var
+
 
 os.system("pip install --upgrade pip")
 if Var.STRING_SESSION:
     session_name = str(Var.STRING_SESSION)
     bot = TelegramClient(StringSession(session_name), Var.APP_ID, Var.API_HASH)
-
 else:
     session_name = "startup"
     bot = TelegramClient(session_name, Var.APP_ID, Var.API_HASH)
@@ -25,9 +27,7 @@ LOAD_PLUG = {}
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
 
-CAT_ID = ["1317466348"]
-
-CAT_ID = ["1201167754"]
+CAT_ID = ["1201167754", "1317466348"]
 
 """ PPE initialization. """
 
@@ -52,8 +52,7 @@ if bool(ENV):
                     level=INFO)
     LOGS = getLogger(__name__)
 
-    # Check if the config was edited by using the already used variable.
-    # Basically, its the 'virginity check' for the config file ;)
+ 
     CONFIG_CHECK = os.environ.get(
         "___________PLOX_______REMOVE_____THIS_____LINE__________", None)
 
@@ -126,13 +125,10 @@ if bool(ENV):
     # Clean Welcome
     CLEAN_WELCOME = sb(os.environ.get("CLEAN_WELCOME", "True"))
     
-    # Custom Module
+     # Custom Module
     CUSTOM_PMPERMIT = os.environ.get("CUSTOM_PMPERMIT", None)
-    
-    # Upstream Repo
-    UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL",
-    "https://github.com/aritramandal/LEGEND.git")
+    CUSTOM_STICKER_PACK_NAME = os.environ.get("CUSTOM_STICKER_PACK_NAME", None)
+    CUSTOM_ANIMATED_PACK_NAME = os.environ.get("CUSTOM_ANIMATED_PACK_NAME", None)
 
     # Last.fm Module
     BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -187,5 +183,3 @@ LASTMSG = {}
 CMD_HELP = {}
 ISAFK = False
 AFKREASON = None
-
-
