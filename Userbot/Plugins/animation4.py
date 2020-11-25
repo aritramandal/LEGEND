@@ -1,8 +1,9 @@
-from userbot import CMD_HELP
+# edited
+from Userbot import CMD_HELP
 from telethon import events
 import asyncio
-from userbot.utils import admin_cmd
-from userbot import ALIVE_NAME
+from Userbot.utils import admin_cmd
+from Userbot import ALIVE_NAME
 import random, re
 from collections import deque
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Cat"     
@@ -55,7 +56,7 @@ async def _(event):
         return
     animation_interval = 0.5
     animation_ttl = range(0, 16)
-    await event.edit("human...")
+    await event.edit("...human...")
     animation_chars = [
         
             "⬛⬛⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛⬛⬛\n⬜⬜⬜⬜⬜⬜⬜\n⬜⬜⬜⬜⬜⬜⬜\n🔲🔲🔲🔲🔲🔲🔲",
@@ -203,7 +204,7 @@ async def _(event):
             "🚃🚃🚃",
             "🚃🚃",
             "🚃",
-            "**rApEd**"
+            "**rApEd🙄**"
  ]
     for i in animation_ttl:
             await asyncio.sleep(animation_interval)
