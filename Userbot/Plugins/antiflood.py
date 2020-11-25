@@ -2,9 +2,9 @@ import asyncio
 from telethon import events
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights
-from userbot.utils import admin_cmd
-import userbot.plugins.sql_helper.antiflood_sql as sql
-from userbot import CMD_HELP
+from Userbot.utils import admin_cmd
+import Userbot.plugins.sql_helper.antiflood_sql as sql
+from Userbot import CMD_HELP
 
 CHAT_FLOOD = sql.__load_flood_settings()
 # warn mode for anti flood
