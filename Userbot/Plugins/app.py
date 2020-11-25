@@ -5,16 +5,16 @@
 import requests
 import bs4 
 import re
-from userbot.utils import admin_cmd,sudo_cmd
+from Userbot.utils import admin_cmd,sudo_cmd
 from telethon import *
-from userbot import *
+from Userbot import *
 from telethon import events
 from bs4 import BeautifulSoup
 from platform import uname
-from userbot import ALIVE_NAME
-from userbot import CMD_HELP
+from Userbot import ALIVE_NAME
+from Userbot import CMD_HELP
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "cat"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "legend"
 @borg.on(admin_cmd(pattern="app (.*)"))
 async def apk(event):
     try:
@@ -94,7 +94,7 @@ async def apkr(event):
         app_details += "\n<code>Rating :</code> "+app_rating.replace("Rated ", "⭐ ").replace(" out of ", "/").replace(" stars", "", 1).replace(" stars", "⭐ ").replace("five", "5")
         app_details += "\n<code>Features :</code> <a href='"+app_link+"'>View in Play Store</a>"
         app_details += "\n\n<b>Download : </b> <a href='https://t.me/joinchat/JCu-H1NikiYDgNjpjPYd4A'>Request_Here</a>"
-        app_details += "\n\n===> @Xpl0iter <==="
+        app_details += "\n\n===> @LEGEND_USERBOT_SUPPORT <==="
         await event.edit(app_details, link_preview = True, parse_mode = 'HTML')
     except IndexError:
         await event.edit("No result found in search. Please enter **Valid app name**")
@@ -107,6 +107,6 @@ CMD_HELP.update({
     ".app [app name]\
 \nUsage: searches the app in the playstore and provides the link to the app in playstore and fetchs app details \
 \n\n.appr [app name]\
-\nUsage: searches the app in the playstore and provides the link to the app in playstore and fetchs app details with Xpl0iter request link. \
+\nUsage: searches the app in the playstore and provides the link to the app in playstore and fetchs app details with @LEGEND_USERBOT_SUPPORT request link. \
 "
 })              
