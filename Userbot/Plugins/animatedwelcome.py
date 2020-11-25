@@ -1,4 +1,4 @@
-#Credit To @Helloji123bot . Keep credit if you are going to edit it.
+#Credit To @Helloji123bot. Keep credit if you are going to edit it.
 
 
 import random, re
