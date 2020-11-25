@@ -4,10 +4,10 @@ from telethon import events
 from telethon.tl import functions, types
 from telethon.tl.types import ChannelParticipantsAdmins
 from platform import uname
-from userbot import ALIVE_NAME
-from userbot.utils import admin_cmd
+from Userbot import ALIVE_NAME
+from Userbot.utils import admin_cmd
 
-n = str(ALIVE_NAME) if ALIVE_NAME else "Sur_vivor"
+n = str(ALIVE_NAME) if ALIVE_NAME else "legend"
 
 emojis = {
     "yee": "ツ",
@@ -104,7 +104,7 @@ async def bluedevilded(ded):
 "　|　３　 | 丶＼ \n"
 "＜ 、･　　|　　＼ \n"
 "　＼＿＿／∪ _ ∪) \n"
-"　　　　　 Ｕ Ｕ\n")
+"　　　　　 Ｕ Ｕ")
 
 M = ("▄███████▄\n"
 "█▄█████▄█\n"
@@ -162,7 +162,7 @@ E = ("▬▬▬.◙.▬▬▬ \n"
 "╬═╬ Hello, My Friend :D \n"
 "╬═╬☻/ \n"
 "╬═╬/▌ \n"
-"╬═╬/ \\n")
+"╬═╬/ \")
 
 C = ("┳┻┳┻╭━━━━╮╱▔▔▔╲\n"
 "┻┳┻┳┃╯╯╭━┫▏╰╰╰▕\n"
