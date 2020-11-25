@@ -4,7 +4,7 @@ import asyncio
 import random
 import logging
 from telethon import events
-from userbot.utils import admin_cmd
+from Userbot.utils import admin_cmd
 
 @borg.on(admin_cmd("bigoof"))
 async def _(event):
