@@ -4,7 +4,7 @@ from telethon import events
 import asyncio
 import os
 import sys
-from userbot.utils import admin_cmd
+from Userbot.utils import admin_cmd
 import random
 
 img1=("https://telegra.ph/file/2479b98d08eed6308dfba.mp4")
