@@ -4,7 +4,7 @@ import asyncio
 import time
 from telethon.tl import functions
 from telethon.errors import FloodWaitError
-from userbot.utils import admin_cmd
+from Userbot.utils import admin_cmd
 
 
 DEL_TIME_OUT = 60
@@ -17,7 +17,7 @@ async def _(event):
     while True:
         DMY = time.strftime("%d.%m.%y")
         HM = time.strftime("%H:%M")
-        name = f"{HM}🔥Տմɾѵíѵօɾ🔥{DMY}"
+        name = f"{HM}🔥𝙎𝙐𝙍𝙑𝙄𝙑𝙊𝙍🔥{DMY}"
         logger.info(name)
         try:
             await borg(functions.account.UpdateProfileRequest(  # pylint:disable=E0602
