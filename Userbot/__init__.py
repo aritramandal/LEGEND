@@ -31,7 +31,7 @@ else:
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
 
-CAT_ID = ["1035034432", "551290198"]
+CAT_ID = ["1201167754", "1317466348"]
 
 # Bot Logs setup:
 if bool(ENV):
@@ -77,7 +77,7 @@ if bool(ENV):
     ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
     AUTONAME = os.environ.get("AUTONAME", None)
     UPSTREAM_REPO_URL = os.environ.get(
-        "UPSTREAM_REPO_URL", "https://github.com/suhaash02/Eliza.git"
+        "UPSTREAM_REPO_URL", "https://github.com/aritramandal/LEGEND.git"
     )
     # Last.fm Module
     BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
